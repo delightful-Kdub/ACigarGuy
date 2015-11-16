@@ -1,0 +1,72 @@
+body {
+    background: rgb(65, 109, 120);
+}
+
+
+#searchbox {
+    float: right;
+}
+
+#search {
+    background: rgb(134, 162, 169);
+}
+
+#submit {
+    background: rgb(134, 162, 169);
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 80%;
+    height: 100%;
+}
+
+.logo {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 60%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.nav {
+    text-align: center;
+    justify-content: center;
+    margin-top: -40px;
+    font-size: 14pt;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(65, 34, 22);
+    padding: 10px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(25, 13, 10);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 1 1 auto;
+}
